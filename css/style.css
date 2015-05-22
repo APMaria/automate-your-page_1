@@ -1,0 +1,23 @@
+h1 {text-align: center;
+color: blue}
+.comment { color: red;}
+.caption {text-align: center;
+color: blue}
+body {font-family:verdana}
+.lesson{ 
+background-color: rgb(0,198,255);
+border-radius: 5px;
+color: white;
+padding: 10px;
+font-size: smaller}
+h2{ margin: 0px;}
+.concept-description{ 
+font-size: smaller;
+background-color: rgb(192,192,192);
+margin-top: 8px;
+margin-bottom: 8px;
+padding: 8px;
+border-radius: 5px;
+color: rgb(0,0,0);
+text-align: left}
+

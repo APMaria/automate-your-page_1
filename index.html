@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Angelique Hunt</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!-- This document uses "Key Concepts" for the various sections of learning versus the actual chapter numbers -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Angelique's Intro to Programming Nanodegree Notes</title>
+</head>
+<body>
+<div class="TOC">
+  <h1> Table of Contents </h1>
+ </div>
+<ol>
+  <li><a href="#Caption-1">Key Concepts</a>
+    <ul>
+      <li><a href="#Key-Concepts-1">Unit 1 Basics of the Web</a></li>
+      <li><a href="#Key-Concepts-2">HTML</a></li>
+      <li><a href="#Key-Concepts-3">Tags Covered</a></li>
+      <li><a href="#Key-Concepts-4">HTML Attributes</a></li>
+  </ul>
+  </li>
+<li class="TOC-caption"><a href="#Caption-2">Key Concepts 2</a>
+<ul>
+  <li><a href="#Key-Concepts-2-1">Webpages, Documents and Structure</a></li>
+<li><a href="#Key-Concepts-2-2">Boxes to HTML</a></li>
+<li><a href="#Key-Concepts-2-3">Scratchpad vs Codepen vs Sublime Text 2</a></li>
+</ul>
+  </li>
+<li class="TOC-caption"><a href="#Caption-3">Key Concepts 3</a>
+  <ul>
+  <li><a href="#Key-Concepts-3-1">Adding CSS Style to HTML</a></li>
+    <li><a href="#Key-Concepts-3-2">Benefits of Avoiding Repetition</a></li>
+  <li><a href="#Key-Concepts-3-3">The Box Model</a></li>
+  <li><a href="#Key-Concepts-3-4">Code, Test and Refine</a></li>
+</ul>
+</li>
+  <li class="TOC-caption"><a href="#Caption-4">cs101: Building a Search Engine</a>
+    <ul>
+      <li><a href="#Caption-4-1">What We Will Do</a></li>
+      <li><a href="#Caption-4-2">Terms to Know</a></li>
+      <li><a href="#Caption-4-3">Python Expressions</a></li>
+      <li><a href="#Caption-4-4">Variables and Strings</a></li>
+      <li><a href="#Caption-4-5">Inputs and Functions</a></li>
+      <li><a href="#Caption-4-6">Control Flow and Loops: If and While</a></li>
+      <li><a href="#Caption-4-7">Debugging Strategies</a>
+      <li><a href="#Caption-4-8">Structured Data: Lists and For Loops</a>
+      <li><a href="#Caption-4-9">How to Solve Problems</a>  
+      </li>
+</ul>
+ </ol>
+  <div class="caption">
+  </div>
+  <h1 id="Caption-1"> Key Concepts</h1>
+  <div class="lesson">
+    <h2 id="Key-Concepts-1">Unit 1 Basics of the Web</h2>
+    </div>
+      <div class="concept-description">
+        <p> The web is made up of HTML (Hypertest Markup Language) and hyperlinks and was invented in 1990s with over 30 billion pages. HTML is made up of:
+          <ol>
+            <li><b>Text</b> (What you can see)</li>
+            <li><b>Markup</b> (What it looks like)</li>
+            <li><b> References to other documents </b> (e.g. images & video)</li>
+            <li><b> Links to other pages </b></li>
+        </ol>
+        <p> *Note - Plain text is plain text in HTML
+        </p>
+    </div>
+    <div class="lesson">
+    <h2 id="Key-Concepts-2">HTML </h2>
+    </div>
+      <div class="concept-description">
+       <p> HTML markups are made up of tags. Some tags have opening and closing tags. Others (Void tags) do not have closing tags. In HTML all "whitespace" (e.g. multiple lines) displays as a single line. 
+       </p>
+       <div class="comment">
+         <p> <b> Note: Computers are stupid and will only do <em>exactly</em> what you tell them to! </b> 
+       </p> 
+       </div>
+        <ol>
+       <li>A <b>Tag</b> is an HTML that is always contained within angled brackets unless it it a "Void" tag.
+       </li> 
+       <li>An <b>element</b> refers to everything within a set of opening and closing tags. 
+       </li> 
+       <li>An <b>attribute</b> is the property of an HTML element (e.g. href).
+       </li>
+        </ol>
+       </div>
+   <div class="lesson">
+     <h2 id="Key-Concepts-3">Tags Covered</h2>
+     </div>
+       <div class="concept-description">
+         <p> <b>Inline Tags include:</b></p>
+         <ul>
+           <li>B Tag (bold)</li>
+           <li>EM Tag (italic)</li>
+           <li>IMG Tag (image) use src (source)</li>
+       <li>SPAN Tag</li>
+         </ul>
+         <p><b>Block Tags create an invisible box around text and include:</b></p>
+         <ul>
+           <li>P Tag (paragraph)</li>
+       <li>DIV Tag</li>
+  </ul>
+     </div>
+    <div class="lesson">
+    <h2 id="Key-Concepts-4">HTML Attributes</h2>
+    </div>
+       <div class="concept-description">
+       <p> HTML Attributes can point to a link. Use an anchor (A Tag) and href. Example: a href(attribute name)="www.udacity.com"(value) contents closing tag. </p>
+   </div>
+<div class="caption">
+    </div>
+<h1 id="Caption-2">Key Concepts 2</h1>
+    <div class="lesson">
+    <h2 id="Key-Concepts-2-1">Webpages, Documents and Structure</h2>
+    </div>
+     <div class="concept-description">
+     <p>HTML is the structure and <b>CSS (Cascading Style Sheets)</b> is the design. There are rules for how websites behave. There is a tree-like structure (DOM - Document Object Model). Use the sideways arrows to drill down
+     </p>
+  </div>
+  <div class="lesson">
+  <h2 id="Key-Concepts-2-2">Boxes to HTML</h2>
+  </div>      
+      <div class="concept-description">
+      <p> Designs should be broken down into boxes (e.g. a title, images, text, captions, etc.) Each box is identified with div.</p> 
+      <p><br> Google Chrome Developer Tools display the HTML structure of the document. The Style box in the developer tools dictates what you see (i.e. color, size, borders) and can be altered via the syntax and rules).
+      </p>
+      </div>
+   <div class="lesson">
+   <h2 id="Key-Concepts-2-3"> <a href = "http://codepen.io/AndyAtUdacity/full/azYrBM/"> Scratchpad vs Codepen vs Sublime Text 2</a> </h2>
+   </div>
+     <div class="concept-description">
+     <ol>
+       <li><b> Scratchpad</b> = Immediate Response and Ease of Use when working with HTML and/or CSS.</li>
+     <li><b>Codepen</b> = 2-3 second response and is slightly more difficult to use but offers ease of sharing and supports Java as well as HTML and CSS.</li>
+     <li><b> Sublime Text 2</b> = A need to refresh to view changes and is difficult to use until you are familiar with it. Supports ALL languages with a few exceptions.</li>
+       </ol>
+  </div>
+<div class="caption">
+  </div>
+<h1 id="Caption-3">Key Concepts 3 </h1>
+       <div class= "lesson">
+       <h2 id="Key-Concepts-3-1"> Adding CSS Style to HTML</h2>
+         </div>
+         <div class="concept-description">
+           <p> You can have several CSS sheets.
+           </p>
+           <p> You can enter code comments that can be viewed in the code but will not show up on the webpage. The format is different depending on if you are writing HTML or CSS.
+           </p>
+         </div>
+        <div class="lesson">
+           <h2 id="Key-Concepts-3-2">Benefits of Avoiding Repetition</h2>
+          </div>
+          <div class="concept-description">
+            <p> The primary benefit of adding CSS style to your HTML is to avoid repetition. There are several benefits to avoiding repetition:</p>
+            <p> Minimizes errors - type the rule once - one and done!
+              <br>Reduces the amount of code you have to write - again one and done!
+              <br>Promotes consistency - everything looks uniform
+            </p>
+  </div>
+  <div class="lesson">
+         <h2 id="Key-Concepts-3-3"> The Box Model</h2>
+         </div>
+           <div class= concept-description>
+             <p> Four (4) areas: Margin, Border, Padding and Content. To calculate the total size, add the following in "Computed" view:
+             </p>
+               <ul>
+                 <li>Left border</li>
+                 <li>Left Padding</li>
+                 <li>Content</li>
+                 <li>Right Padding</li>
+                 <li>Right Border</li>
+             </ul>
+               <p>If you set the parameters by percentage, the contenet will display relative to that setting when the window is resized
+               </p>
+               <p> To add an image, create a new folder and name it "Images" within your root folder.
+               </p>
+            </div>
+             <div class="lesson">
+             <h2 id="Key-Concepts-3-4">Code, Test and Refine </h2>
+             </div>
+             <div class="concept-description">
+               <p><b>Ask yourself:</b>
+               </p>
+               <ol>
+                 <li>Have I defined the the natural boxes?</li>
+                 <li>Do I need a heading?</li>
+                 <li>Is the sizing of the boxes good?</li>
+                 <li>Is the positioning of the boxes good?</li>
+                 <li>Any other details?</li>
+                 </ol>
+               <p><b>Five Steps:</b></p>
+<ol>
+  <li>Visually Boxify</li>
+  <li>Look For Repeated Styles & Semantic Elements</li>
+  <li>Write HTML</li>
+  <li>Apply Styles (from biggest to smallest)</li>
+  <li>Fix Things (check other browsers, resize windows, check until you are happy)</li>
+</ol>
+</div>
+  <div class="caption"></div>
+  <h1 id="Caption-4">cs101: Building a Search Engine</h1>
+  <div class="lesson">
+  <h2 id="Caption-4-1">What We Will Do</h2>
+  </div>
+  <div class="concept-description">
+    <p>The programs we write will be Python code which we will input into another program which is a Python interpreter that follows the instructions in our code (<em>procedural thinking</em>) and does that by following instructions in <b>its</b> code. We will be able to run all using our web browser.</p>
+    <p>Note the demonstration of technological thinking (the entire previous paragrah) as well as abstract thinking (considering a Python program, a Python interpreter and a web browser as different versions of the same thing).</p>
+  </div>
+    <div class="lesson">
+      <h2 id="Caption-4-2">Terms to Know</h2>
+  </div>
+  <div class="concept-description">
+    <ol>
+      <li><b>Web Crawler</b> collects data from the web.</li>
+      <li><b>Computer</b> is a machine that can do <em>everything</em>; however, it can't do <em>anything</em> without a program.</li>
+      <li>A <b>program</b> provides very precise instructions that tell a computer what to do.
+      </li>
+      <li><b>Programming Language</b> (<em>Python</em>) enables the ability to write a program that a computer can understand without ambiguity.</li>
+      <li><b>Recursive Definitions</b> allow us to define infinitely many things using a few simple rules (<em>expressions, operators</em>).
+      </li>
+    </ol>
+      </div>
+      <div class="lesson">
+           <h2 id="Caption-4-3">Python Expressions</h2>
+      </div>
+      <div class="concept-description">
+        <p> An <em>expression</em> is something that has a value. The <em>expression</em> non-terminal is on the left and can be replaced by an <em>expression</em>, followed by an <em>operator</em>, followed by another <em>expression</em> (e.g. 1 + 1).</p>
+        <p>
+        <span class="comment">
+          <b> Note: Python views a difference between "1" and "1.0".</b></span>
+       <span>When you divide a number without a decimal by another number without a decimal, Python ignores the decimal part of the answer. In order to force Python to give you an answer including a decimal, you will need to make one of the numbers into a decimal by putting a decimal point after it (e.g. 5/2.0 = 2.5 and so does 5.0/2).</span></p>
+  </div>
+  <div class= "lesson">
+    <h2 id= "Caption-4-4">Variables and Strings</h2>
+  </div>
+  <div class= concept-description>
+    <p> Python requires code be written with a very specific syntax. Small typographical errors can lead to <b>BIG</b> problems (e.g. 2 + 2 will output 4 and "2" + "2" will output 22).</p>
+    <p> One of the most important (and most confusing!) concepts in programming is the <b>variable</b>. In Python a variable is a name that refers to a value. That value can be be any sequence of letters, numbers and/or underscores; but, it <span class= comment><b>cannot start with a number</b></span>. Variables are useful in programming as they: 
+    <ul> 
+      <li>Afford code readability by using names that make sense to humans</li>
+      <li>Provide a way to store the values of important data</li>
+      <li>Allow flexibility by enabling the modification of values</li>
+    </ul>
+    In order to introduce a variable we have to give it an <b>assignment</b>. That "assignment" is known as an <b>assignment statement</b>.<em>Name = Expression</em> is an assignment statement. For example if I make the assignment that cycle_time = 40 cDays, I can then use "cycle-time" and it will always mean 40 cDays unless I change it.
+    <span class= comment><b>Note: In programming the equals sign means assignment (think of it as an arrow) and not equal to. It means that the value on right side evaluates to/is assigned to the variable of the left.</b></span>
+  <p> A <b>string</b> is a sequence of characters (can be a single word, letter or number) surrounded by quotes (either single or double as long as the same type is used on either end of the sequence). Strings can be concatenated, multiplied, indexed and extracted.
+    <ul>
+      <li><b>String Concatenation</b> - string A + string B outputs the two strings together with no spaces</li>
+      <li><b>String Multiplication</b> - string A * number N outputs that number of copies of string A pasted together with no spaces.</li>
+      <li><b>String Indexing</b> - string A [Number N] outputs the position of the character/character string in string A. Positions are counted from start (left) at 0 or from stop (right - negative number).</li>
+      <li><b>String Extraction</b> - string A [start number:stop number] outputs a subsequence of string A from start position to just before stop position. If start number is missing, start from beginning of string A. If stop number is missing, go to end of string A. </li>
+      <li><b>String Extraction (Find)</b> - search string A.find (target string) outputs the position number where the target string first appears. For subsequent occurrences use: search string A.find(target string, start number) where the start number is the position of the first appearance.</li>
+  </ul>
+  </div> 
+  <div class = "lesson">
+    <h2 id="Caption-4-5">Inputs and Functions</h2>
+  </div>
+  <div class= "concept-description">
+    <p>A <b>function</b> takes input (parameters) and processes that <b>input</b> (also known as "operand" also know as "argument") to produce an output (e.g. when x is true; do what I tell you to do with x and produce y).</p>
+    <p> A function can have any number of inputs; however, the number of inputs must match what the function expects.</p>
+    <p> A function once created can be reused forever; thus, avoiding the need for repetition! </p>
+    <p>The format for <em>making</em> a function starts with a line of code beginning with "def" followed by the parameters in parentheses.</p>
+    <p>The format for <em>using</em> a function is a line of code beginning with an action (e.g. "print") followed by the name of the function and a value(s) in parentheses. A function also requires a <b>return statement</b> that tells the function what the output should be. If there is no return statement, the output will be "None". </p>
+  </div>
+  <div class="lesson">
+    <h2 id = "Caption-4-6">Control Flow and Loops: If and While</h2>
+  </div>
+  <div class="concept-description">
+    <p> <b>While Loops</b> let you write code that does the same thing over and over - any number of times - as long as the test expression is true.</p>
+    <p>A <b>"break"</b> gives us a way to stop a loop even while the test expression is true.
+    <p><b>If and Else</b> functions check to see if the test expression is true and will evaluate in accordance with the code.</p>
+    <p> Making decisions typically includes comparisons. In Python we use several number operators. The format: number, comparison operator, number will yield a boolean value (True or False) and NOT a number.</p>
+      <p> To use an <b>"If"</b> function, we type "if" followed by a <b>test expression</b> followed by a colon (don't forget the colon!). The <b>"block"</b> will evaluate if the instance is true and will not NOT evaluate if the instance is false. If the block is not indented, it will execute whether or not the test expression is true.</p>
+      <p> When using the <b>"Or"</b> operand, the following rules apply:
+        <ol>
+          <li>If the first expression evaluates to "true", the value is true and the second expression is not evaluated.</li>
+          <li>If the first expression evaluates to "false", the value is the value of the second expression.</li>
+      </ol>
+  </div>
+  <div class="lesson">
+    <h2 id="Caption-4-7">Debugging Strategies</h2>
+  </div>
+  <div class="concept-description">
+    <ol>
+      <li><b>Examine error messages when programs crash.</b>
+      <ul>
+        <li>The last line of the Python traceback will tell you what went wrong. Reading backwards from there will tell you more about where the problem occurred.</li>
+      </ul>
+      </li>
+      <li><b>Work from example code.</b>
+        <ul>
+          <li>If your modified code doesn't work, comment it out and do step-by-step modifications to the example code until it does what you want.</li>
+        </ul>
+      </li>
+      <li><b>Make sure examples work.</b>
+          <ul>
+            <li>Just because you find example code doesn't mean it will work in your system. Check the example code you're using to make sure it behaves the way you expect.</li>
+          </ul>
+      </li>
+          <li><b>Check (print) intermediate results when you're code doesn't crash, but doesn't behave as expected.</b>
+            <ul>
+              <li>Add print statements to your program to see where in the code things stop behaving correctly.</li>
+      </ul>
+      </li>
+      <li><b>Keep and compare old versions.</b>
+      <ul>
+        <li>When you have a working version of your code, save it before you add to the code. This will give you something to go back to if you introduce too many new bugs. </li>
+      </ul>
+      </li>
+    </ol>
+  </div>
+  <div class="lesson">
+    <h2 id = "Caption-4-8">Structured Data: Lists and For Loops</h2>
+  </div>
+  <div class = "concept-description">
+    <p>In <b>Modular code</b> the "data" is separated from its visual presentation so you can change one without worrying about the other. To make this possible keep the raw text of notes (data) in one place, the structure (HTML) and the visual (CSS) somewhere else.</p>
+    <p><b>Systems Thinking</b> requires the utilization of five key steps:
+      <ol>
+        <li><b>Understand the requirements of the problem. Inputs? Outputs?</b></li>
+        <li><b>Plan an approach to solving the problem.</b></li>
+        <li><b>Re-familiarize yourself with code you've already written/learned that may help.</b></li>
+        <li><b>Write new code.</b></li>
+        <li><b>Put all the pieces together.</b></li>
+          </ol>
+    <p><b>Structured data</b> can be a string (sequence of characters) and/or a list (sequence of anything).</p>
+  <p> A <b>nested list</b> can be a list within a list and can include both strings and integers. When using a long list in python interpreter, make separations with commas.</p>
+  <p> Lists support <b>mutation</b> which enables us to change the value of the list without creating a new list object. Strings do NOT support mutation.</p>
+  <p><b>Aliasing</b> is two ways to refer to the same object (i.e. a person's government name and their nickname refer to the same person).</p>
+  <p><b>List Operations</b> include:
+    <ul>
+      <li><b>Append</b> (works similar to "find") and adds an element to an existing list.</li>
+      <li><b>Plus</b> concatenates and does NOT add.</li>
+      <li><b>len</b> is short for length and counts the elements in a list or string.</li>
+  </ul>
+<p><b>For Loops</b> take the format: for a variable we introduce in a specified list do what we instruct.</p>
+<p>The <b>Index Method</b> takes a value in a list and returns the first position where that value is found in the list and otherwise returns an error.</p>
+</div>
+<div class="lesson">
+  <h2 id = "Caption-4-9">How to Solve Problems</h2>
+</div>
+<div class = "concept-description">
+  <p><b>Five Steps:</b>
+    <ol>
+      <li><b>What are the inputs?</b></li>
+      <li><b>What are the outputs?</b></li>
+      <li><b>Work through some examples by hand.</b> You should know what your expected output should be and what it should look like.</li>
+      <li><b>Develop a basic mechanical solution</b> to use as a starting point. This solution may include pseudo code and may NOT be 100% correct and that's okay. Use it to get you part of the way to your ultimate solution. Use stub procedures and helper functions as applicable. Use comments to note any inaccuracies and don't forget to test!</li>
+      <li><b>Develop incrementally - in small steps and test as you go.</b> This will enable you to identify and correct errors in your code easier and more methodically.</li>
+  </ol>
+</div>
+    </body>
+    
+    
+    
+    
+    
+  </body>
+</html>
